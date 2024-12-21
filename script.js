@@ -762,12 +762,10 @@ canvas.addEventListener("mouseup", () => {
         }
     });
 
-    function calcularDataFinal(dataInicial, diasUteis) {
-        const diasCorridos = Math.ceil(diasUteis * 7 / 5);
-        const data = new Date(dataInicial);
-        data.setDate(data.getDate() + diasCorridos);
-        return data.toLocaleDateString('pt-BR');
-    }
+    function calcularDataFinal(dataInicial, diasCorridos) {
+    const data = new Date(dataInicial); // Cria uma nova instância de data com base na data inicial
+    data.setDate(data.getDate() + diasCorridos); // Soma os dias corridos diretamente
+    return data.toLocaleDateString('pt-BR');
 
     async function generateContratoPDF(nome, estadoCivil, endereco, funcao, local, salario, cargaHoraria, dataFinal, assinaturaImg) {
         const { jsPDF } = window.jspdf;
