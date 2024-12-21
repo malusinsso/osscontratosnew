@@ -668,6 +668,10 @@ const ctx = canvas.getContext("2d");
 let drawing = false;
 let startX, startY;
 
+// Ajustar o tamanho do canvas para ocupar toda a tela
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
 // Touch events
 canvas.addEventListener("touchstart", (e) => {
   e.preventDefault(); // Prevent default browser behavior (scrolling)
