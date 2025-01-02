@@ -1000,8 +1000,8 @@ doc.text("ASSOCIAÇÃO BENEFICENTE DE PIRANGI", marginLeft, currentY);
 currentY += 10;
 
 // Assinatura do associado
-const signatureWidth = 50;
-const signatureHeight = (assinaturaImg.height / assinaturaImg.width) * signatureWidth;
+const signatureWidth = 40;
+const signatureHeight = 20;
 doc.addImage(assinaturaImg, 'PNG', marginLeft, currentY, signatureWidth, signatureHeight);
 currentY += signatureHeight + 5;
 
