@@ -1,645 +1,807 @@
 const usuarios = [
+    //TÉCNICO DE ENFERMAGEM
+    {
+        nome: "MARJORIE FERNANDES BARBOZA",
+        funcao: "TÉCNICA DE ENFERMAGEM 1",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "AILTON PIRES DA COSTA",
+        funcao: "TÉCNICO DE ENFERMAGEM 1",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRO",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "BIANCA MENDES FERREIRA",
+        funcao: "TÉCNICA DE ENFERMAGEM 3",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "CINTIA DE SOUSA COSTA",
+        funcao: "TÉCNICA DE ENFERMAGEM 4",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "CLAUDIA FERREIRA DA SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 5",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "FABIANA  ALCANTARA FERNANDES",
+        funcao: "TÉCNICA DE ENFERMAGEM 24",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "FLANSLEINE PERGAMINE DOS SANTOS",
+        funcao: "TÉCNICA DE ENFERMAGEM 6",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "DIVORCIADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "DEBORA CIBELE SOARES SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 7",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "ANA BEATRIZ TEIXEIRA DE SOUZA",
+        funcao: "TÉCNICA DE ENFERMAGEM 8",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "Solteira",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "EDINALVA CERQUEIRA MARQUES",
+        funcao: "TÉCNICA DE ENFERMAGEM 9",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "DIVORCIADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "DARLENE ALVES DA SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 10",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "CLAUDIA SANTANA SOUZA TELO",
+        funcao: "TÉCNICA DE ENFERMAGEM 11",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "ELISABETE SANTOS DA SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 12",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "DIVORCIADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "SIMONE CERQUEIRA SANTANA DE MIRANDA",
+        funcao: "TÉCNICA DE ENFERMAGEM 13",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "LUCIENE RODRIGUES DA SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 14",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "SAMARA MARTINS DE SOUSA",
+        funcao: "TÉCNICA DE ENFERMAGEM 15",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "DIVORCIADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "LIDIANE ALVES DO NASCIMENTO",
+        funcao: "TÉCNICA DE ENFERMAGEM 16",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "ROBERT FIRMINO BAIÃO",
+        funcao: "TÉCNICA DE ENFERMAGEM 17",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "", // PREENCHER
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "RAFAELA BRUNO DE JESUS",
+        funcao: "TÉCNICA DE ENFERMAGEM 18",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRO",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "DARLI DOS SANTOS  GOMES",
+        funcao: "TÉCNICA DE ENFERMAGEM 19",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "", // PREENCHER
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "SIMONE DE LIMA ITO",
+        funcao: "TÉCNICA DE ENFERMAGEM 20",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "", // PREENCHER
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "SIRLEIDE COUTINHO DE SOUZA NUNES",
+        funcao: "TÉCNICA DE ENFERMAGEM 21",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "JOVELINE MATOS VALERIO",
+        funcao: "TÉCNICA DE ENFERMAGEM 22",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "TAMIRA APARECIDA DOS SANTOS MADALENA",
+        funcao: "TÉCNICA DE ENFERMAGEM 23",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "JULIANA LUIZA DINIZ ",
+        funcao: "TÉCNICA DE ENFERMAGEM 24",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "DIVORCIADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "MARIA DAS GRAÇAS FERREIRA DOS SANTOS",
+        funcao: "TÉCNICA DE ENFERMAGEM 25",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "GIOVANNA FERREIRA DUARTE DE OLIVEIRA",
+        funcao: "TECNICO DE ENFERMAGEM",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "VITTORIA DO NASCIMENTO NOVAIS",
+        funcao: "TÉCNICA DE ENFERMAGEM 27",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "GABRIELLY FERREIRA DOS SANTOS",
+        funcao: "TÉCNICA DE ENFERMAGEM 28",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "LARISSA OLIVEIRA DE SOUZA",
+        funcao: "TÉCNICA DE ENFERMAGEM 29",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "CLEICIANE ALVES DE OLIVEIRA REIS",
+        funcao: "TÉCNICA DE ENFERMAGEM 30",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "CYNTHIA MAYUMI ONO OGATA",
+        funcao: "TÉCNICA DE ENFERMAGEM 31",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "EDICLEIDE DE LIMA SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 32",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "JEUSINEIDE MARQUES",
+        funcao: "TÉCNICA DE ENFERMAGEM 33",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "HANNA LUIZA DA SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 35",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "IARA SÁ TELES AMORIM",
+        funcao: "TÉCNICA DE ENFERMAGEM 36",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "INESLENE NEVES FRANÇA",
+        funcao: "TÉCNICA DE ENFERMAGEM 37",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "ROSILENE DE MORAES ROSA",
+        funcao: "TÉCNICA DE ENFERMAGEM 38",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "", // preencher
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "LUCINETE DE OLIVEIRA",
+        funcao: "TÉCNICA DE ENFERMAGEM 39",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "DIVORCIADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "MARIA AUGUSTA JOAQUIM SILVA DE OLIVEIRA",
+        funcao: "TÉCNICA DE ENFERMAGEM 40",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "ANA CAROLINE SANTOS RODRIGUES",
+        funcao: "TÉCNICA DE ENFERMAGEM 41",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "WANDERLY APARECIDA FERNANDES DA SILVA",
+        funcao: "TÉCNICA DE ENFERMAGEM 43",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "LUCAS DE SOUZA ANDRADE",
+        funcao: "TÉCNICA DE ENFERMAGEM 44",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRO",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "TANIELLY DOS SANTOS COSTA",
+        funcao: "TÉCNICA DE ENFERMAGEM 44",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "THAÍS DA SILVA AGUIAR",
+        funcao: "TÉCNICA DE ENFERMAGEM 45",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "THAYNARA DA SILVA SANTOS",
+        funcao: "TÉCNICA DE ENFERMAGEM 46",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "VANUZA GONÇALVES PEREIRA",
+        funcao: "TÉCNICA DE ENFERMAGEM 47",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "MICHELE BERTINO DE OLIVEIRA ",
+        funcao: "TÉCNICA DE ENFERMAGEM 48",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "DIVORCIADA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "MARIA LUCIA LIMA SAMUEL",
+        funcao: "TÉCNICA DE ENFERMAGEM 49",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "VIÚVA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "ANTONIA NUBIA LIMA SAMUEL",
+        funcao: "TÉCNICA DE ENFERMAGEM 50",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12x36",
+    },
+
+    {
+        nome: "SABRINA GABRIELA DE ALMEIDA LEITE",
+        funcao: "TÉCNICA DE ENFERMAGEM 52",
+        salario: "R$  2.720,45",
+        local: "UTI NEO/CO",
+        estadoCivil: "SOLTEIRO",
+        cargaHoraria: "12x36",
+    },
+
     // ADM
     {
         nome: "FABIANA PEREIRA DA SILVA OLIVEIRA",
-        funcao: "COORDENADOR",
+        funcao: "COORDENADORA ADMINISTRATIVA",
         salario: "R$5.000,00",
         local: "ADMINISTRATIVO",
         estadoCivil: "CASADA",
-        cargaHoraria: "40 (quarenta) horas semanais",//40 horas
-      
+        cargaHoraria: "40 (quarenta) horas semanais", //40 horas
     },
     {
         nome: "ERIKA PRISCILLA FEITOSA",
         funcao: "ANALISTA ADMINISTRATIVO",
-        salario: "R$3.000,00",
+        salario: "R$ 3.700,00",
         local: "ADMINISTRATIVO",
         estadoCivil: "SOLTEIRA",
         cargaHoraria: "40 (quarenta) horas semanais", //40horas
-        
     },
-    {
-        nome: "ANA PAULA DA SILVA",
-        funcao: "AUXILIAR ADMINISTRATIVO",
-        salario: "R$2.100,00",
-        local: "ADMINISTRATIVO",
-        estadoCivil: "DIVORCIADA",
-        cargaHoraria: "40 (quarenta) horas semanais",//40horas
-       
-    },
+
     {
         nome: "JULIANA DA SILVA MOURA",
         funcao: "AUXILIAR ADMINISTRATIVO",
-        salario: "R$1.800,00",
+        salario: "R$ 2.300,00",
         local: "ADMINISTRATIVO",
         estadoCivil: "DIVORCIADA",
-        cargaHoraria: "36 (trinta e seis) horas semanais",//36horas
- 
+        cargaHoraria: "36 (trinta e seis) horas semanais", //36horas
     },
-    {
-        nome: "SHEILA CRISTINA DE PAULA NASCIMENTO",
-        funcao: "AUXILIAR ADMINISTRATIVO",
-        salario: "R$1.800,00",
-        local: "ADMINISTRATIVO",
-        estadoCivil: "CASADA",
-        cargaHoraria: "36 (trinta e seis) horas semanais"//36horas
 
+    {
+        nome: "ANA LUIZA SILVA SANTOS ",
+        funcao: "AUXILIAR ADMINISTRATIVO",
+        salario: "R$  1.800,00 ",
+        local: "ADMINISTRATIVO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12X36",
+    },
+
+    {
+        nome: "CONCEIÇÃO EVANGELISTA SOARES",
+        funcao: "AUXILIAR ADMINISTRATIVO",
+        salario: "R$ 1.800,00",
+        local: "ADMINISTRATIVO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12X36",
     },
     // ENFERMEIRA OBSTETRA
     {
         nome: "VANUZIA SANTOS PEREIRA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "COORDENADORA DE ENFERMAGEM",
         salario: "R$ 10.600,00",
         local: "CENTRO OBSTÉTRICO",
         estadoCivil: "DIVORCIADA",
-        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "SEGUNDA A SEXTA",
     },
-    {
-        nome: "NATALIA CAITANO DE LIMA COSTA",
-        funcao: "ENFERMEIRA OBSTETRA",
-        salario: "R$ 4.500,00 ",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)"
-    },
+
+
     {
         nome: "BEATRIZ MARQUES CAVALCANTI",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00 ",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
         nome: "DAYANE SIMÕES AVILA GONZAGA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00 ",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
         nome: "ARLETE PEREIRA SILVA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00 ",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)",
     },
+
     {
-        nome: "ERIKA CADENGUE DE SOUSA OLIVEIRA SILVA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        nome: "LUIZA SOUSA DE ARAUJO",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00 ",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)",
+    },
+
+    {
+        nome: "FABIANA CAETANO GAMA",
+        funcao: "ENFERMEIRA",
+        salario: "R$ 4.500,00 ",
+        local: "CENTRO OBSTETRICO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12 X 36, (das 07h00 às 19h00 ou 19h00 às 07h00)",
+    },
+
+    {
+        nome: "ERIKA CADENGUE DE SOUSA OLIVEIRA SILVA",
+        funcao: "ENFERMEIRA DIARISTA",
+        salario: " R$  5.000,00",
+        local: "CENTRO OBSTETRICO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "SEGUNDA A SEXTA",
     },
     {
         nome: "MARCILENE SILVA DE SOUZA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
         nome: "IVONE BARBOSA DE OLIVEIRA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
         nome: "RAQUEL MADALENA DE ASSIS",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
         nome: "CLAUDIA BATISTA ROCHA PEREIRA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$ 4.500,00",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
         nome: "ELZA MATEUS PORTELA TRINDADE",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$4.500,00",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
         nome: "ANIVALDA CAETANO GAMA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        funcao: "ENFERMEIRA",
         salario: "R$4.500,00",
         local: "CENTRO OBSTETRICO",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
+
     {
-        nome: "LAUDICEIA MARIA DE OLIVEIRA",
-        funcao: "ENFERMEIRA OBSTETRA",
+        nome: "DÉBORA MARIA ALVES GREGÓRIO",
+        funcao: "ENFERMEIRA",
         salario: "R$4.500,00",
         local: "CENTRO OBSTETRICO",
-        estadoCivil: "DIVORCIADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        estadoCivil: "CASADA",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
     {
-        nome: "PATRÍCIA APARECIDA FONTES DE ANDRADE",
-        funcao: "ENFERMEIRA OBSTETRA",
+        nome: "DANIELA DA SILVA MARTINEZ MOURA",
+        funcao: "ENFERMEIRA",
         salario: "R$4.500,00",
         local: "CENTRO OBSTETRICO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        estadoCivil: "CASADA",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
+
+    // UTI NEO
     {
         nome: "CAREM MATOS COSTA",
-        funcao: "ENFERMEIRA UTI NEO",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
         estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "ELIANE DAS VIRGENS SPINA",
-        funcao: "ENFERMEIRA UTI NEO",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "MARIA DE FATIMA OLIVEIRA PEREIRA CORREA DA SILVA",
-        funcao: "ENFERMEIRA UTI NEO",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "FERNANDA CORDEIRO ALBERTO",
-        funcao: "ENFERMEIRA UTI NEO",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "ADRIANA GOMES STRAZZA",
-        funcao: "ENFERMEIRA",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "JAQUELINE MOREIRA DE MORAIS",
-        funcao: "ENFERMEIRA",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "GERSON MIGUEL SANTOS CORREIA",
-        funcao: "ENFERMEIRO",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
-        estadoCivil: "SOLTEIRO",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "MARCIA DE SOUZA OLIVEIRA",
-        funcao: "ENFERMEIRA",
-        salario: "R$3.886,36",
-        local: "UNIDADE DE TERAPIA INTENSIVA - NEONATOLOGIA (UTI NEO)",
-        estadoCivil: "DIVORCIADA",
-        cargaHoraria: "20 horas - de segunda a sexta"
-    },
-    {
-        nome: "MARJORIE FERNANDES BARBOZA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "AILTON PIRES DA COSTA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRO",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "BIANCA MENDES FERREIRA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "CINTIA DE SOUSA COSTA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "CLAUDIA FERREIRA DA SILVA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "DEBORA CIBELE SOARES SILVA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "ANA BEATRIZ TEIXEIRA DE SOUZA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "EDINALVA CERQUEIRA MARQUES",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "DIVORCIADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "GABRIELA HERNANDES ESTEVAM",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "UNIÃO ESTÁVEL",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "GISELE RICARDO CAMPOS",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "LUCIENE RODRIGUES DA SILVA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "SAMARA MARTINS DE SOUSA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "UTI NEO",
-        estadoCivil: "DIVORCIADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "LIDIANE ALVES DO NASCIMENTO",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "RAFAELA BRUNO DE JESUS",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "SOLTEIRO",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "SIRLEIDE COUTINHO DE SOUZA NUNES",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "CENTRO OBSTÉTRICO",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "JOVELINE MATOS VALERIO",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "UTI NEO",
-        estadoCivil: "CASADA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "TAMIRA APARECIDA DOS SANTOS MADALENA",
-        funcao: "TÉCNICO DE ENFERMAGEM",
-        salario: "R$2.720,45",
-        local: "UTI NEO",
-        estadoCivil: "SOLTEIRA",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "MARIA DAS GRAÇAS FERREIRA DOS SANTOS",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
+        salario: " R$  4.200,00",
+        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
         funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
-    {
-        nome: "DENISE ANDRADE MIRANDA CASTRO",
-        estadoCivil: "CASADA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "VITTORIA DO NASCIMENTO NOVAIS",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "GABRIELLY FERREIRA DOS SANTOS",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "AMANDA DOS SANTOS GAVIOLI",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "CLEICIANE ALVES DE OLIVEIRA REIS",
-        estadoCivil: "CASADA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "CYNTHIA MAYUMI ONO OGATA",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "EDICLEIDE DE LIMA SILVA",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
+
     {
         nome: "ROSANA MÁRCIA PEREIRA SILVA",
         estadoCivil: "CASADA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "MICHELLE CRISTINA SADERIO",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "HANNA LUIZA DA SILVA",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "IARA SÁ TELES AMORIM",
-        estadoCivil: "CASADA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "INESLENE NEVES FRANÇA",
-        estadoCivil: "CASADA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "JULIANA NASCIMENTO DOS SANTOS",
-        estadoCivil: "CASADA",
-        salario: "R$ 2.720,45",
+        salario: " R$  4.200,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
         funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
+
     {
-        nome: "LUCINETE DE OLIVEIRA",
+        nome: "MARIA DE FATIMA OLIVEIRA PEREIRA CORREA DA SILVA",
+        estadoCivil: "CASADA",
+        salario: " R$  4.200,00",
+        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
+        funcao: "Enfermeira",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
+    },
+
+    {
+        nome: "FERNANDA CORDEIRO ALBERTO",
+        estadoCivil: "CASADA",
+        salario: " R$  4.200,00",
+        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
+        funcao: "Enfermeira",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
+    },
+
+    {
+        nome: "RAIANI DE ASSIS DOS SANTOS",
         estadoCivil: "DIVORCIADA",
-        salario: "R$ 2.720,45",
+        salario: " R$  4.200,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
         funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
+
     {
-        nome: "MARIA AUGUSTA JOAQUIM SILVA DE OLIVEIRA",
+        nome: "ADRIANA GOMES STRAZZA",
         estadoCivil: "CASADA",
-        salario: "R$ 2.720,45",
+        salario: " R$  4.200,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
         funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
+
     {
-        nome: "ANA CAROLINE SANTOS RODRIGUES",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
+        nome: "JAQUELINE MOREIRA DE MORAIS",
+        estadoCivil: "CASADA",
+        salario: "R$  3.886,36",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
         funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "SEGUNDA A SEXTA",
     },
+
     {
-        nome: "LUCAS DE SOUZA ANDRADE",
+        nome: "MARCIA DE SOUZA OLIVEIRA",
+        estadoCivil: "DIVORCIADA",
+        salario: "R$  3.886,36",
+        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
+        funcao: "Enfermeira",
+        cargaHoraria: "20 horas - de 2ª à 6ª 07h00 às 12h00",
+    },
+
+    {
+        nome: "GERSON MIGUEL SANTOS CORREIA",
         estadoCivil: "SOLTEIRO",
-        salario: "R$ 2.720,45",
+        salario: " R$  4.200,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "Enfermeiro",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        funcao: "Enfermeira",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
+
     {
-        nome: "MARIANA APARECIDA DA SILVA CLARIMUNDO",
+        nome: "TAYNA BENTO DO COUTO",
         estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
+        salario: " R$  4.200,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
         funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
     },
-    {
-        nome: "REBECA BARACHO ATANASIO DUO",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "TANIELLY DOS SANTOS COSTA",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "THAÍS DA SILVA AGUIAR",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "VANUZA GONÇALVES PEREIRA",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "MICHELE BERTINO DE OLIVEIRA",
-        estadoCivil: "DIVORCIADA",
-        salario: "R$ 2.720,45",
-        local: "Centro Obstétrico",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "MARIA LUCIA LIMA SAMUEL",
-        estadoCivil: "VIÚVA",
-        salario: "R$ 2.720,45",
-        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
-    {
-        nome: "ANTONIA NUBIA LIMA SAMUEL",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 2.720,45",
-        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "Enfermeira",
-        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)"
-    },
+
+
     // FONO
     {
         nome: "NATHALIA COSTA DE PAULA",
         estadoCivil: "SOLTEIRA",
-        salario: "R$ 5.100,00",
+        salario: "R$ 6.000,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "FONOAUDIOLOGIA",
-        cargaHoraria: "segunda a sábado (07h00 às 13h00 ou das 13h00 às 19h00)"
+        funcao: "FONOAUDIÓLOGA",
+        cargaHoraria: "SEGUNDA A SEXTA"
     },
     {
         nome: "GABRIELLA DIAS BATISTA",
         estadoCivil: "UNIÃO ESTÁVEL",
-        salario: "R$ 2.500,00",
-        funcao: "FONOAUDIOLOGIA",
+        salario: "R$ 6.000,00",
+        funcao: "FONOAUDIÓLOGA",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        cargaHoraria: "segunda a sábado (07h00 às 13h00 ou das 13h00 às 19h00)"
+        cargaHoraria: "SEGUNDA A SEXTA"
     },
-   // FISIOTERAPEUTA 
-   {
-        nome: "ALESSA CASTRO RIBEIRO",
-        estadoCivil: "SOLTEIRA",
-        salario: "R$ 6.800,00",
-        funcao: "FISOTERAPEUTA",
-        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        cargaHoraria: "30 (trinta) horas semanais",//30horas
-    },
-
+    // FISIOTERAPEUTA 
     {
         nome: "CINTIA MIKAELA PEREIRA DE LIMA COELHO",
         estadoCivil: "CASADA",
         salario: "R$ 3.800,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "FISOTERAPEUTA",
-        cargaHoraria: "qualquer periodo entre as 07h00 às 01h00",// qualquer periodo entre as 07:00 às 01:00 )
+        funcao: "FISIOTERAPEUTA",
+        cargaHoraria: "12x36",
     },
     {
         nome: "GABRIELLA SOUZA CARLOS",
         estadoCivil: "SOLTEIRA",
         salario: "R$ 3.800,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "FISOTERAPEUTA",
-        cargaHoraria: "qualquer periodo entre as 07h00 às 01h00",// qualquer periodo entre as 07:00 às 01:00 )
+        funcao: "FISIOTERAPEUTA",
+        cargaHoraria: "12x36",
     },
+
     {
-        nome: "LUANA RODRIGUES DE SOUZA TINO",
+        nome: "BEATRIZ RODRIGUES SILVA SANTOS",
         estadoCivil: "CASADA",
         salario: "R$ 3.800,00",
-        funcao: "FISOTERAPEUTA",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        cargaHoraria: "qualquer periodo entre as 07h00 às 01h00",// qualquer periodo entre as 07:00 às 01:00 )
+        funcao: "FISIOTERAPEUTA",
+        cargaHoraria: "12x36",
     },
+
     {
         nome: "PAMELA FARIAS MORENO",
         estadoCivil: "SOLTEIRA",
         salario: "R$ 3.800,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "FISOTERAPEUTA",
-        cargaHoraria: "qualquer periodo entre as 07h00 às 01h00",// qualquer periodo entre as 07:00 às 01:00 )
+        funcao: "FISIOTERAPEUTA",
+        cargaHoraria: "12x36",
     },
+
     {
         nome: "PAULA FERNANDA MORAES DOS ANJOS",
         estadoCivil: "SOLTEIRA",
         salario: "R$ 3.800,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "FISOTERAPEUTA",
-        cargaHoraria: "qualquer periodo entre as 07h00 às 01h00", // qualquer periodo entre as 07:00 às 01:00 )
+        funcao: "FISIOTERAPEUTA",
+        cargaHoraria: "12x36",
     },
-    // SERVIÇO SOCIAL
+
     {
-        nome: "VANESSA CRISTINE DE OLIVEIRA DO PRADO",
+        nome: "SAMARA GONÇALVES BARCA",
         estadoCivil: "SOLTEIRA",
         salario: "R$ 3.800,00",
         local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
-        funcao: "SERVIÇO SOCIAL",
+        funcao: "FISIOTERAPEUTA",
+        cargaHoraria: "12x36",
+    },
+
+
+    // SERVIÇO SOCIAL
+    {
+        nome: "MICHELE ARIANE DE SOUZA",
+        estadoCivil: "DIVORCIADA",
+        salario: "R$ 3.800,00",
+        local: "Unidade de Terapia Intensiva Neonatal (UTI NEO)",
+        funcao: "ASSISTENTE SOCIAL",
         cargaHoraria: "segunda a sexta (07h00 às 13h00 ou das 13h00 às 19h00)"
     },
     // PSICÓLOGA
