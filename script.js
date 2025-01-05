@@ -979,7 +979,9 @@ canvas.addEventListener("mouseup", () => {
 
 6ª - A vigência deste contrato será pelo prazo de 60 (SESSENTA) dias sendo que o início de sua vigência é a partir da data de assinatura, encontrando-se em ${dataFinal}, podendo o mesmo ser prorrogado por uma única vez, mediante a respectiva assinatura de Adição de Contrato. 
 
-7ª - E por estarem de pleno acordo, as partes contratantes assinam o presente contrato em duas vias de igual teor, ficando a primeira em poder do EMPREGADOR e a segunda com o EMPREGADO, que dela dará o recibo competente.`;
+7ª - E por estarem de pleno acordo, as partes contratantes assinam o presente contrato em duas vias de igual teor, ficando a primeira em poder do EMPREGADOR e a segunda com o EMPREGADO, que dela dará o recibo competente.
+
+São Paulo, 01/01/2025.`;
 
 currentY = justTextWithPageBreak(doc, content, marginLeft, currentY, usableWidth, pageHeight - marginBottom, 8);
 
@@ -1056,7 +1058,7 @@ return nomeArquivo;
         doc.setFontSize(11);
 
         const instructions = `
-        Prezado(a) ${nome},
+        Prezado(a),
         Segue o cronograma de benefícios:
             - Salário: 5º dia útil (10:00 às 17:00); 
             - Refeição: refeitório no local;
@@ -1072,7 +1074,7 @@ return nomeArquivo;
             - Término do contrato: é feito o pagamento das verbas rescisórias legais (saldo de salário, 13º salário proporcional e férias + 1/3 vencidas e/ou proporcionais e liberação do saldo do FGTS depositado na conta do empregado); 
             - Não é devido o pagamento pelo empregador: aviso prévio e multa de 40% do FGTS ao empregado e guias para saque de seguro desemprego.
             
-            PARA VALIDAR SUA ADMISSÃO, envie o seu contrato assinado para o e-mail documentososspirangi@gmail.com, com o assunto: "CONTRATO ASSINADO - ${nome}."`;
+            PARA VALIDAR SUA ADMISSÃO, envie o seu contrato assinado para o e-mail documentososspirangi@gmail.com, com o assunto: "CONTRATO ASSINADO - SEU NOME."`;
 
         // Definindo o espaçamento entre as linhas para 1,5 cm (15mm)
     const lineHeight = 10; // 1,5 cm em milímetros
