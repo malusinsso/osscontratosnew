@@ -565,6 +565,34 @@ const usuarios = [
         estadoCivil: "CASADA",
         cargaHoraria: "SEGUNDA A SEXTA",
     },
+
+    {
+        nome: "RENATA CRISTINA MESSIAS DOS SANTOS",
+        funcao: "ENFERMEIRO (A) OBSTÉTRICO(A)",
+        salario: "R$  4.500,00 ",
+        local: "CENTRO OBSTETRICO",
+        estadoCivil: "DIVORCIADO",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
+    },
+
+    {
+        nome: "ARLETE PEREIRA SILVA ",
+        funcao: "ENFERMEIRA",
+        salario: "R$  4.500,00 ",
+        local: "CENTRO OBSTETRICO",
+        estadoCivil: "SOLTEIRA",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
+    },
+
+    {
+        nome: "ILMA RAMOS SILVA",
+        funcao: "ENFERMEIRA",
+        salario: "R$  4.500,00 ",
+        local: "CENTRO OBSTETRICO",
+        estadoCivil: "CASADA",
+        cargaHoraria: "12 X 36 (07h00 às 19h00 ou 19h00 às 07h00)",
+    },
+    
     {
         nome: "MARCILENE SILVA DE SOUZA",
         funcao: "ENFERMEIRA",
